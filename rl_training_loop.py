@@ -6,8 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Import Custom BioCore Modules
-from models import SMILESGenerator, vocab_size, token2idx, idx2token, device
-from oracle import compute_reward, screen_lipinski
+from models_rnn_architecture import SMILESGenerator, vocab_size, token2idx, idx2token, device
+from oracle_reward_function import compute_reward, screen_lipinski
 
 # Reproducibility checkpoint
 torch.manual_seed(42)
