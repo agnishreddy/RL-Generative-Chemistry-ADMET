@@ -4,6 +4,12 @@
 ![RDKit](https://img.shields.io/badge/RDKit-Cheminformatics-blue?style=for-the-badge)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-Reinforcement_Learning-purple?style=for-the-badge)
 
+<img width="1489" height="490" alt="download (3)" src="https://github.com/user-attachments/assets/fdd363d2-6e67-4300-8f5e-2005f7a5b298" />
+<img width="837" height="475" alt="download (4)" src="https://github.com/user-attachments/assets/3190f481-4932-4852-a9f0-f9a3f8acb87e" />
+<img width="1489" height="490" alt="download (1)" src="https://github.com/user-attachments/assets/0f7e7324-4397-49bc-98d9-b270a6ba179a" />
+<img width="1489" height="490" alt="download (2)" src="https://github.com/user-attachments/assets/c48dbba6-423f-4004-9869-95448c4df048" />
+
+
  📌 Overview
 This repository contains an enterprise-grade computational pipeline for **Hit-to-Lead Optimization** and **De Novo Generative Chemistry**. It bridges graph-based deep learning (for property prediction) with reinforcement learning (for molecular generation) to hallucinate novel, highly bioavailable chemical structures while profiling their ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) viability.
 
@@ -51,3 +57,4 @@ Initiate the REINFORCE loop to train the generative agent. The script will autom
 python train_rl.py
 ```
 *Outputs: Model weights saved to `generator_weights.pth` and a 2D structural grid of top candidates exported to `lead_candidates.png`.*
+<img width="1187" height="156" alt="image" src="https://github.com/user-attachments/assets/e8794c29-022e-4501-9781-07cdfb9fff2e" />
